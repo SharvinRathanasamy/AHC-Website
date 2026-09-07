@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
-  selector: 'app-site-header',
-  templateUrl: './site-header.component.html',
-  styleUrls: ['./site-header.component.scss']
+    selector: 'app-site-header',
+    templateUrl: './site-header.component.html',
+    styleUrls: ['./site-header.component.scss'],
+    standalone: false
 })
 export class SiteHeaderComponent {
   readonly languages = [
