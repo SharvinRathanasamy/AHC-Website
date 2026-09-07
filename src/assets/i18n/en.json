@@ -1,0 +1,126 @@
+{
+  "brand": {
+    "name": "AHC Resources",
+    "tagline": "Consult. Assist. Comply.",
+    "taglineLine1": "Consult.",
+    "taglineLine2": "Assist.",
+    "taglineLine3": "Comply."
+  },
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "process": "Process",
+    "faq": "FAQ",
+    "consultation": "Get a consultation",
+    "language": "Select language"
+  },
+  "hero": {
+    "eyebrow": "Halal compliance & consultancy",
+    "acronym": {
+      "amanah": "Amanah",
+      "halal": "Halal",
+      "consultancy": "Consultancy"
+    },
+    "intro": "Professional consultancy and compliance support for Malaysian food businesses preparing for halal certification.",
+    "whatsapp": "WhatsApp us",
+    "services": "Our services",
+    "artLabel": "Abstract illustration of a growing plant"
+  },
+  "about": {
+    "eyebrow": "Who we are",
+    "title": "Halal compliance made clearer, more practical, and more accessible.",
+    "body": "AHC Resources helps restaurants, cafes, bakeries, caterers and food manufacturers prepare for Malaysia Halal Certification through practical systems, documentation and audit readiness."
+  },
+  "disclaimer": {
+    "eyebrow": "Our role",
+    "title": "Independent guidance. Clear boundaries.",
+    "body": "AHC Resources is an independent private halal consultancy. We assist with compliance preparation, documentation, training, gap assessments and application support. We do not issue or approve Malaysia Halal Certificates, and we do not guarantee certification approval."
+  },
+  "services": {
+    "eyebrow": "Our services",
+    "title": "Support for every step of your halal journey.",
+    "intro": "Tailored support around the reality of your premises, products and people.",
+    "items": {
+      "consultancy": { "title": "Halal consultancy", "body": "Certification preparation, halal requirements assessment, ingredient and supplier verification, documentation review, halal management systems, application preparation and audit support." },
+      "gap": { "title": "Halal gap assessment", "body": "A structured review of ingredients, suppliers, production areas, storage, equipment, cleaning, documentation, staff practices and halal management controls. Receive a report identifying strengths, improvements and risk areas." },
+      "documentation": { "title": "Documentation assistance", "body": "Practical help organising ingredient and supplier lists, certificates, specifications, process flows, SOPs, cleaning and purchasing procedures, traceability, audits and training records." },
+      "verification": { "title": "Ingredient & supplier verification", "body": "Know what is inside your ingredients. We review raw materials, additives, flavourings, meat, dairy, sauces, seasonings, imported ingredients and relevant packaging records." },
+      "audit": { "title": "Mock halal audit & training", "body": "Test your readiness before assessment with a review of documentation, premises, ingredients, processes and staff. We also provide halal awareness and operational training within our qualified scope." }
+    }
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title": "A straightforward path to readiness.",
+    "steps": {
+      "consultation": { "title": "Consultation", "body": "We understand your business, products, ingredients and current practices." },
+      "gap": { "title": "Gap assessment", "body": "We identify gaps against applicable halal requirements." },
+      "documentation": { "title": "Documentation", "body": "We organise the necessary procedures and records." },
+      "implementation": { "title": "Implementation", "body": "We support your team to put effective controls in place." },
+      "audit": { "title": "Mock audit", "body": "We assess readiness and advise on corrective action." },
+      "application": { "title": "Application support", "body": "We help prepare the application and supporting documents." }
+    }
+  },
+  "industries": {
+    "eyebrow": "Businesses we serve",
+    "title": "Built for the way food businesses actually work.",
+    "items": {
+      "restaurants": "Restaurants",
+      "cafes": "Cafes",
+      "bakeries": "Bakeries",
+      "caterers": "Caterers",
+      "manufacturers": "Food manufacturers",
+      "centralKitchens": "Central kitchens",
+      "cloudKitchens": "Cloud kitchens",
+      "processing": "Food processing",
+      "retail": "Retail food businesses"
+    }
+  },
+  "packages": {
+    "eyebrow": "Ways to engage",
+    "title": "Choose the support that fits your starting point.",
+    "quote": "Get a quote",
+    "items": {
+      "readiness": { "title": "Halal readiness assessment", "body": "For businesses that want to understand their current position.", "points": { "0": "Preliminary consultation", "1": "Site and ingredient review", "2": "Documentation review", "3": "Gap assessment report" } },
+      "preparation": { "title": "Certification preparation", "body": "For businesses preparing to apply.", "points": { "0": "Gap assessment", "1": "Documentation and SOP assistance", "2": "Application preparation", "3": "Audit preparation" } },
+      "complete": { "title": "Complete compliance support", "body": "For comprehensive, end-to-end support.", "points": { "0": "Halal management system", "1": "Staff training", "2": "Mock audit", "3": "Corrective action support" } }
+    }
+  },
+  "faq": {
+    "eyebrow": "Frequently asked questions",
+    "title": "Questions, answered clearly.",
+    "items": {
+      "certificates": { "question": "Does AHC Resources issue halal certificates?", "answer": "No. We are an independent private consultancy. Certificates are issued by the relevant halal certification authority." },
+      "guarantee": { "question": "Can you guarantee my halal certificate?", "answer": "No. We help businesses prepare and improve compliance before applying, but the final assessment and approval remain with the relevant authority." },
+      "myehalal": { "question": "Can you help with MYeHALAL?", "answer": "We can provide preparation and application assistance within the scope permitted for a private consultant." },
+      "smallRestaurants": { "question": "Do you work with small restaurants?", "answer": "Yes. Our support can be tailored to the scale and complexity of your business." }
+    }
+  },
+  "contact": {
+    "eyebrow": "Let's make your business halal-ready",
+    "titleLine1": "Start with a",
+    "titleLine2": "conversation.",
+    "body": "Tell us about your business, halal status and what you are working towards. We will help identify the next right step.",
+    "whatsapp": "Chat on WhatsApp",
+    "labels": {
+      "person": "Person in charge",
+      "qualification": "Qualification",
+      "certification": "Certification",
+      "phone": "Contact",
+      "address": "Address",
+      "hours": "Business hours"
+    },
+    "person": "Shyam Bin Ramzan",
+    "qualification": "B.Sc (Food Service Technology)",
+    "certification": "Certified Halal Consultant",
+    "phone": "+60 19-731 6495",
+    "location": "C-2-09, SRI ALAM CONDOMINIUM, JALAN KELAB GOLF 13/1, KGSAAS, SEKSYEN 13, SHAH ALAM, SELANGOR, MALAYSIA",
+    "hours": "Monday - Friday, 9:00 AM - 5:30 PM"
+  },
+  "footer": {
+    "copyright": "© 2026 AHC Resources",
+    "backToTop": "Back to top"
+  },
+  "whatsapp": {
+    "messageEncoded": "Hello%20AHC%20Resources%2C%20I%20would%20like%20to%20enquire%20about%20halal%20consultancy%20services."
+  }
+}

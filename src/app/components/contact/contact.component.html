@@ -1,0 +1,19 @@
+<section class="contact" id="contact">
+    <div>
+        <p class="eyebrow">{{ 'contact.eyebrow' | translate }}</p>
+        <h2>{{ 'contact.titleLine1' | translate }}<br>{{ 'contact.titleLine2' | translate }}</h2>
+    </div>
+    <div class="contact-copy">
+        <p>{{ 'contact.body' | translate }}</p><a class="button button-light"
+            [href]="'https://wa.me/60197316495?text=' + ('whatsapp.messageEncoded' | translate)" target="_blank"
+            rel="noopener noreferrer">{{ 'contact.whatsapp' | translate }} <span aria-hidden="true">↗</span></a>
+        <div class="contact-details">
+            <span class="contact-credential contact-name">{{ 'contact.person' | translate }}</span>
+            <span class="contact-credential">{{ 'contact.qualification' | translate }}</span>
+            <span class="contact-credential contact-certification">{{ 'contact.certification' | translate }}</span>
+            <span class="contact-detail"><strong>{{ 'contact.labels.phone' | translate }}</strong><a href="tel:+60197316495">{{ 'contact.phone' | translate }}</a></span>
+            <span class="contact-detail"><strong>{{ 'contact.labels.address' | translate }}</strong><span>{{ 'contact.location' | translate }}</span></span>
+            <span class="contact-detail"><strong>{{ 'contact.labels.hours' | translate }}</strong><span>{{ 'contact.hours' | translate }}</span></span>
+        </div>
+    </div>
+</section>

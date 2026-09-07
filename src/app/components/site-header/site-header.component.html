@@ -1,0 +1,8 @@
+<nav class="site-nav" aria-label="Main navigation">
+	<a class="brand" href="#top" aria-label="AHC Resources home">
+		<img src="assets/images/amanah-halal-resources.png" alt="AHC Resources">
+		<span class="brand-text"><strong>AHC Resources</strong><small>Amanah Halal Consultancy Resources</small></span>
+	</a>
+	<div class="nav-links"><a href="#about">{{ 'nav.about' | translate }}</a><a href="#services">{{ 'nav.services' | translate }}</a><a href="#process">{{ 'nav.process' | translate }}</a><a href="#faq">{{ 'nav.faq' | translate }}</a></div>
+	<div class="nav-actions"><select class="language-select" [value]="currentLanguage" (change)="useLanguage($event)" [attr.aria-label]="'nav.language' | translate"><option *ngFor="let language of languages" [value]="language.code">{{ language.label }}</option></select><a class="nav-cta" href="#contact">{{ 'nav.consultation' | translate }} <span aria-hidden="true">↗</span></a></div>
+</nav>
