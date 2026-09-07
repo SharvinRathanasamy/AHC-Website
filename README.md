@@ -33,4 +33,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 3. Build output directory: `dist/ahc-website/browser`
 4. Node version: pinned via `.nvmrc` (set the `NODE_VERSION` environment variable in the Pages dashboard if it is not picked up automatically).
 
-The included `src/_redirects` file is copied into the build output and tells Cloudflare Pages to serve `index.html` for any unmatched path, since this is a single-page application.
+This is a single static page (no client-side routes), so no SPA fallback/redirect rule is required.
