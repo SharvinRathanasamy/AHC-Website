@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Deployment (Cloudflare Pages)
+
+1. Push this repository to GitHub/GitLab and connect it in the Cloudflare Pages dashboard.
+2. Build command: `npm run build`
+3. Build output directory: `dist/ahc-website/browser`
+4. Node version: pinned via `.nvmrc` (set the `NODE_VERSION` environment variable in the Pages dashboard if it is not picked up automatically).
+
+The included `src/_redirects` file is copied into the build output and tells Cloudflare Pages to serve `index.html` for any unmatched path, since this is a single-page application.
