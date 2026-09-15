@@ -32,6 +32,7 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
+              "src/_headers",
               "src/google6f14947accd11826.html",
               "src/robots.txt",
               "src/sitemap.xml",

@@ -1,6 +1,11 @@
-# AhcWebsite
+# AHC Resources Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
+Angular static website for AHC Resources halal consultancy.
+
+## Requirements
+
+- Node.js `22` (see `.nvmrc`)
+- npm
 
 ## Development server
 
@@ -12,7 +17,9 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `npm run build:prod` to build the project for production. The build artifacts will be stored in `dist/ahc-website/browser`.
+
+Run `npm run deploy:check` before deployment. This validates all translation JSON files and creates a production build.
 
 ## Running unit tests
 
@@ -29,8 +36,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Deployment (Cloudflare Pages)
 
 1. Push this repository to GitHub/GitLab and connect it in the Cloudflare Pages dashboard.
-2. Build command: `npm run build`
+2. Build command: `npm run deploy:check`
 3. Build output directory: `dist/ahc-website/browser`
-4. Node version: pinned via `.nvmrc` (set the `NODE_VERSION` environment variable in the Pages dashboard if it is not picked up automatically).
+4. Node version: `22` (set the `NODE_VERSION` environment variable in the Pages dashboard if `.nvmrc` is not picked up automatically).
+5. Custom domain: `ahcresources.com`
 
-This is a single static page (no client-side routes), so no SPA fallback/redirect rule is required.
+This is a single static page with section anchors, so no SPA fallback/redirect rule is required. Static security headers are included through `src/_headers` and copied into the production output.

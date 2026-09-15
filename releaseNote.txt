@@ -33,3 +33,36 @@ Page Changed:
         src/assets/images/
         ahc-website-deploy.zip
 ===============================================
+[ahc_web_prod]
+Date              : 20260916
+Branch Name       : ahc_web_prod
+Deployment file   : ahc-website-deploy.zip
+
+Changes:
+        - Increased font sizes, spacing and touch targets for elderly users.
+        - Made services, process steps and package descriptions collapsible.
+        - Enlarged collapsible section controls and long-form content readability.
+        - Added Cloudflare Pages deployment headers through src/_headers.
+        - Added production deployment scripts and translation validation.
+        - Updated README deployment instructions for Cloudflare Pages.
+        - Regenerated ahc-website-deploy.zip from the latest production build output.
+
+Validation:
+        - npm run deploy:check completed successfully.
+        - Translation JSON validation completed successfully.
+        - Production Angular build completed successfully.
+        - Deployment zip contents verified with index.html, _headers, SEO files, assets and bundles at the zip root.
+
+Files Changed:
+        README.md
+        ahc-website-deploy.zip
+        angular.json
+        package.json
+        releaseNote.txt
+        src/_headers
+        src/styles.scss
+        src/app/app.component.scss
+        src/app/components/services/services.component.html
+        src/app/components/process/process.component.html
+        src/app/components/packages/packages.component.html
+===============================================

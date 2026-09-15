@@ -14,6 +14,35 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body { margin: 0; }
+html { font-size: 18px; scroll-behavior: smooth; }
+body { font-size: 1rem; line-height: 1.65; margin: 0; }
 a { color: inherit; text-decoration: none; }
+
+summary { cursor: pointer; list-style: none; position: relative; }
+summary::-webkit-details-marker { display: none; }
+summary:focus-visible { outline: 2px solid var(--amanah-gold); outline-offset: 4px; }
+.service-item details { max-width: 560px; }
+.service-item summary { color: var(--amanah-green-deep); font-size: 22px; font-weight: 700; line-height: 1.35; padding: 0 42px 0 0; }
+.service-item summary::after { content: '+'; color: var(--amanah-gold); font-size: 28px; font-weight: 400; position: absolute; right: 4px; top: -4px; }
+.service-item details[open] summary::after, .process-list details[open] summary::after, .package-grid details[open] summary::after, .content-disclosure[open] summary::after, .faq details[open] summary::after { content: '−'; }
+.process-list summary { color: var(--paper); font-size: 21px; font-weight: 700; line-height: 1.35; margin: 24px 0 9px; padding-right: 34px; }
+.process-list summary::after { content: '+'; color: #f5cf9e; font-size: 26px; font-weight: 400; position: absolute; right: 0; top: -4px; }
+.process-list summary:focus-visible { outline-color: var(--amanah-gold-light); }
+.process-list p { color: #c1d0c6; font-size: 16px; line-height: 1.7; margin: 0; max-width: 300px; }
+.package-grid summary { color: var(--amanah-green-deep); font-size: 23px; font-weight: 700; line-height: 1.25; margin: 34px 0 12px; padding-right: 34px; }
+.package-grid summary::after { content: '+'; color: var(--amanah-gold); font-size: 28px; font-weight: 400; position: absolute; right: 0; top: -6px; }
+.package-grid p, .package-grid li { color: var(--ink-muted); font-size: 16px; line-height: 1.7; }
+.package-grid ul { margin: 18px 0 26px; padding-left: 20px; }
+.package-grid a { border-bottom: 1px solid var(--amanah-green-deep); display: inline-block; font-size: 15px; margin-top: 24px; padding-bottom: 4px; }
+.faq summary { font-size: 20px; font-weight: 700; line-height: 1.5; padding-right: 42px; }
+.faq summary::after { content: '+'; font-size: 28px; font-weight: 400; position: absolute; right: 2px; top: -4px; }
+.faq details p { color: #58716b; font-size: 17px; line-height: 1.75; margin: 15px 35px 0 0; }
+.content-disclosure summary { color: var(--amanah-green-deep); font-size: 18px; font-weight: 700; padding: 10px 40px 10px 0; transition: color .2s ease; }
+.content-disclosure summary:hover { color: var(--amanah-gold); }
+.content-disclosure summary::after { content: '+'; color: var(--amanah-gold); font-size: 28px; font-weight: 400; position: absolute; right: 2px; top: 1px; }
+.compliance-risk .content-disclosure summary { color: var(--paper); }
+.compliance-risk .content-disclosure summary::after { color: var(--amanah-gold-light); }
+
+@media (max-width: 700px) {
+	.service-item summary { font-size: 20px; }
+}
