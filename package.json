@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build:prod": "ng build --configuration production",
-    "deploy:check": "node -e \"const fs=require('fs'); for (const file of ['en','ms','ta','ar','zh']) JSON.parse(fs.readFileSync('src/assets/i18n/' + file + '.json', 'utf8')); console.log('translations ok')\" && ng build --configuration production",
+    "deploy:check": "node -e \"const fs=require('fs'); for (const file of ['en','ms','ta','ar','zh']) JSON.parse(fs.readFileSync('src/assets/i18n/' + file + '.json', 'utf8')); console.log('translations ok')\" && ng build --configuration production && node scripts/verify-deploy-output.cjs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

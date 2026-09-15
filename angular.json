@@ -36,7 +36,11 @@
               "src/google6f14947accd11826.html",
               "src/robots.txt",
               "src/sitemap.xml",
-              "src/assets"
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets"
+              }
             ],
             "styles": [
               "src/styles.scss"

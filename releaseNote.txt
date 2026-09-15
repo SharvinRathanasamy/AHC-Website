@@ -43,15 +43,21 @@ Changes:
         - Made services, process steps and package descriptions collapsible.
         - Enlarged collapsible section controls and long-form content readability.
         - Added Cloudflare Pages deployment headers through src/_headers.
-        - Added production deployment scripts and translation validation.
+        - Added production deployment scripts, translation validation and build-output asset verification.
         - Updated README deployment instructions for Cloudflare Pages.
-        - Regenerated ahc-website-deploy.zip from the latest production build output.
+        - Regenerated ahc-website-deploy.zip from the verified production build output.
+        - Fixed deployment package verification for /assets/i18n/*.json and /assets/images/* files.
+        - Fixed language dropdown display so it matches the saved/current language on page load.
+        - Improved mobile header alignment and tightened mobile hero artwork positioning.
 
 Validation:
         - npm run deploy:check completed successfully.
         - Translation JSON validation completed successfully.
         - Production Angular build completed successfully.
+        - Deployment output verification completed successfully for required translation and image assets.
         - Deployment zip contents verified with index.html, _headers, SEO files, assets and bundles at the zip root.
+        - Verified saved Malay language displays BM in the language selector after reload.
+        - Verified mobile layout has no horizontal overflow outside the clipped hero artwork.
 
 Files Changed:
         README.md
@@ -59,9 +65,12 @@ Files Changed:
         angular.json
         package.json
         releaseNote.txt
+        scripts/verify-deploy-output.cjs
         src/_headers
         src/styles.scss
         src/app/app.component.scss
+        src/app/components/site-header/site-header.component.html
+        src/app/components/site-header/site-header.component.ts
         src/app/components/services/services.component.html
         src/app/components/process/process.component.html
         src/app/components/packages/packages.component.html

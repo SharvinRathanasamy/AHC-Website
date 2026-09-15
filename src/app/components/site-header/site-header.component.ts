@@ -8,6 +8,8 @@ import { TranslateService } from '@ngx-translate/core';
     standalone: false
 })
 export class SiteHeaderComponent {
+  currentLanguage = localStorage.getItem('ahc-language') || 'en';
+
   readonly languages = [
     { code: 'en', label: 'EN' },
     { code: 'ms', label: 'BM' },
@@ -16,14 +18,15 @@ export class SiteHeaderComponent {
     { code: 'zh', label: '中文' }
   ];
 
-  constructor(private readonly translate: TranslateService) {}
-
-  get currentLanguage(): string {
-    return this.translate.currentLang || this.translate.defaultLang || 'en';
+  constructor(private readonly translate: TranslateService) {
+    this.translate.onLangChange.subscribe(({ lang }) => {
+      this.currentLanguage = lang;
+    });
   }
 
   useLanguage(event: Event): void {
     const language = (event.target as HTMLSelectElement).value;
+    this.currentLanguage = language;
     localStorage.setItem('ahc-language', language);
     this.translate.use(language);
   }
