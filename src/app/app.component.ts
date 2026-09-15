@@ -16,7 +16,7 @@ export class AppComponent {
     private readonly translate: TranslateService,
     @Inject(DOCUMENT) private readonly document: Document
   ) {
-    this.translate.addLangs(['en', 'ms', 'ta', 'ar']);
+    this.translate.addLangs(['en', 'ms', 'ta', 'ar', 'zh']);
     this.translate.setDefaultLang('en');
 
     const savedLanguage = localStorage.getItem('ahc-language') || 'en';

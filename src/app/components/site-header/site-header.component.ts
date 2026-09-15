@@ -12,7 +12,8 @@ export class SiteHeaderComponent {
     { code: 'en', label: 'EN' },
     { code: 'ms', label: 'BM' },
     { code: 'ta', label: 'TA' },
-    { code: 'ar', label: 'AR' }
+    { code: 'ar', label: 'AR' },
+    { code: 'zh', label: '中文' }
   ];
 
   constructor(private readonly translate: TranslateService) {}

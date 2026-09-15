@@ -10,6 +10,8 @@ import { SiteHeaderComponent } from './components/site-header/site-header.compon
 import { HeroComponent } from './components/hero/hero.component';
 import { AboutComponent } from './components/about/about.component';
 import { DisclaimerComponent } from './components/disclaimer/disclaimer.component';
+import { HalalIntroductionComponent } from './components/halal-introduction/halal-introduction.component';
+import { ComplianceRiskComponent } from './components/compliance-risk/compliance-risk.component';
 import { ServicesComponent } from './components/services/services.component';
 import { ProcessComponent } from './components/process/process.component';
 import { IndustriesComponent } from './components/industries/industries.component';
@@ -28,6 +30,8 @@ export function createTranslateLoader(http: HttpClient): TranslateHttpLoader {
         HeroComponent,
         AboutComponent,
         DisclaimerComponent,
+        HalalIntroductionComponent,
+        ComplianceRiskComponent,
         ServicesComponent,
         ProcessComponent,
         IndustriesComponent,

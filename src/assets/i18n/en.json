@@ -36,6 +36,53 @@
     "title": "Independent guidance. Clear boundaries.",
     "body": "AHC Resources is an independent private halal consultancy. We assist with compliance preparation, documentation, training, gap assessments and application support. We do not issue or approve Malaysia Halal Certificates, and we do not guarantee certification approval."
   },
+  "halalIntro": {
+    "eyebrow": "Foundations",
+    "titleLine1": "What is",
+    "titleLine2": "Halal?",
+    "lead": "The Arabic word halal means permitted, lawful, or allowed according to Islamic law (Shariah). Its opposite is haram, meaning prohibited.",
+    "body": "For food businesses, halal is more than checking whether an ingredient is permissible. It also covers the source, processing, handling, storage, preparation and protection from contamination with prohibited substances.",
+    "principles": {
+      "tayyib": { "title": "Halal and tayyib", "body": "The Qur'an connects halal with tayyib: good, wholesome, pure and beneficial. Food should be safe, clean and fit for consumption.", "reference": "Al-Baqarah 2:168" },
+      "good": { "title": "Lawful and good", "body": "Islamic food requirements bring together religious permissibility and wholesomeness, not one without the other.", "reference": "An-Nahl 16:114" },
+      "source": { "title": "Source matters", "body": "Prohibited foods and methods of obtaining food are clearly identified. The source and method by which food becomes food matter.", "reference": "Al-Ma'idah 5:3" },
+      "governance": { "title": "Sound governance", "body": "Halal and haram are established through legitimate Islamic sources, not personal preference or unnecessary restriction.", "reference": "Al-Ma'idah 5:87-88" }
+    },
+    "principlesSummary": "Why these four halal principles matter",
+    "industrySummary": "See how halal applies across the food industry",
+    "referencesSummary": "View key Qur'anic references",
+    "definitionLabel": "A practical definition",
+    "definition": "Halal is anything that is permitted and lawful according to Islamic Shariah. For food, halal also requires the product to be wholesome, pure and safe (tayyib), with its ingredients, processing, handling and supply chain managed according to Islamic requirements.",
+    "industryLabel": "Halal in the food industry",
+    "industryIntro": "Halal means that a product complies with Islamic requirements throughout its relevant supply chain and production process.",
+    "industryItems": ["Raw materials: ingredients must be halal.", "Animal origin: animal-derived ingredients must come from permissible sources.", "Slaughtering: applicable animals must be slaughtered according to Islamic requirements.", "Processing: prohibited substances must not be used or introduced.", "Equipment: production equipment must be controlled to prevent contamination.", "Storage: halal products must be protected from non-halal contamination.", "Transportation: handling and transport must maintain halal integrity.", "Cleaning and sanitation: appropriate procedures must be implemented.", "Packaging and labelling: information must not be misleading.", "Traceability: the business should demonstrate where materials came from and how the product was produced."],
+    "referencesLabel": "Key Qur'anic references",
+    "references": "Al-Baqarah 2:168 — Consume what is halal and tayyib.\nAl-Baqarah 2:172 — Eat the good provisions Allah has provided.\nAl-Ma'idah 5:3 — Major categories of prohibited food.\nAl-Ma'idah 5:87-88 — Do not prohibit what Allah has made lawful.\nAn-Nahl 16:114 — Eat the good and lawful provisions."
+  },
+  "complianceRisk": {
+    "eyebrow": "Certification continuity",
+    "title": "Protecting your premises' halal certification.",
+    "intro": "Obtaining a Malaysian Halal Certificate is an important milestone for any food business. Maintaining certification requires continuous compliance with the applicable Malaysian Halal Certification requirements.",
+    "context": "A certified food premises may face non-compliance, suspension, withdrawal or termination when significant requirements are not maintained or when issues affect the halal integrity of the operation. AHC Resources helps businesses identify potential risks early and strengthen their halal compliance systems.",
+    "riskSummary": "View the eight common risk areas",
+    "riskTitle": "What can put certification at risk?",
+    "items": {
+      "ingredients": { "title": "Ingredients and raw materials", "body": "New materials without appropriate supporting halal documentation can create compliance concerns." },
+      "suppliers": { "title": "Supplier changes", "body": "Changing suppliers without reviewing and maintaining the required documentation creates supply-chain risk." },
+      "operations": { "title": "Premises or operations", "body": "Changes to the address, production area, processes, products, brands or operations may require action." },
+      "documentation": { "title": "Documentation gaps", "body": "Incomplete, outdated or inconsistent records make halal controls difficult to demonstrate." },
+      "audit": { "title": "Inspection or audit findings", "body": "Unresolved non-conformities and weak corrective action can affect certification status." },
+      "system": { "title": "Halal management system", "body": "Weak implementation, monitoring or record keeping can create continuing compliance concerns." },
+      "logo": { "title": "Certificate or logo misuse", "body": "Improper use, alteration or misuse may result in enforcement action." },
+      "shariah": { "title": "Shariah concerns", "body": "Handling, processing, storage or other practices may affect halal certification integrity." }
+    },
+    "supportSummary": "View programme services and maintenance steps",
+    "helpEyebrow": "How AHC Resources can help",
+    "programmeTitle": "Halal Certificate Compliance & Retention Programme",
+    "approach": "We take a preventive approach: identify potential weaknesses, implement corrective measures and maintain proper documentation and controls.",
+    "support": ["Compliance and premises assessments", "Ingredient and supplier monitoring", "Halal documentation and management system support", "Internal halal audit and corrective-action monitoring", "Staff awareness and Halal Committee support", "Renewal, mock inspection and audit preparation"],
+    "path": { "identify": "Identify", "assess": "Assess", "correct": "Correct", "monitor": "Monitor", "maintain": "Maintain" }
+  },
   "services": {
     "eyebrow": "Our services",
     "title": "Support for every step of your halal journey.",
