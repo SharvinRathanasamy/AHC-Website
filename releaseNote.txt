@@ -49,6 +49,7 @@ Changes:
         - Fixed deployment package verification for /assets/i18n/*.json and /assets/images/* files.
         - Fixed language dropdown display so it matches the saved/current language on page load.
         - Improved mobile header alignment and tightened mobile hero artwork positioning.
+        - Added missing halal introduction and compliance-risk translations for Malay, Tamil, Arabic and Chinese.
 
 Validation:
         - npm run deploy:check completed successfully.
@@ -58,6 +59,7 @@ Validation:
         - Deployment zip contents verified with index.html, _headers, SEO files, assets and bundles at the zip root.
         - Verified saved Malay language displays BM in the language selector after reload.
         - Verified mobile layout has no horizontal overflow outside the clipped hero artwork.
+        - Verified halal introduction and compliance-risk sections render translated Malay content without raw translation keys.
 
 Files Changed:
         README.md
@@ -74,4 +76,8 @@ Files Changed:
         src/app/components/services/services.component.html
         src/app/components/process/process.component.html
         src/app/components/packages/packages.component.html
+        src/assets/i18n/ms.json
+        src/assets/i18n/ta.json
+        src/assets/i18n/ar.json
+        src/assets/i18n/zh.json
 ===============================================

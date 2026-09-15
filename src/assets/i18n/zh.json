@@ -1,17 +1,309 @@
 {
-  "brand": { "name": "AHC Resources", "tagline": "咨询 · 协助 · 合规", "taglineLine1": "咨询。", "taglineLine2": "协助。", "taglineLine3": "合规。" },
-  "nav": { "about": "关于我们", "services": "服务", "process": "流程", "faq": "常见问题", "consultation": "获取咨询", "language": "选择语言" },
-  "hero": { "eyebrow": "清真合规与咨询", "acronym": { "amanah": "Amanah", "halal": "Halal", "consultancy": "Consultancy" }, "intro": "为准备申请马来西亚清真认证的食品企业提供专业咨询与合规支持。", "whatsapp": "通过 WhatsApp 联系我们", "services": "我们的服务", "artLabel": "抽象的成长植物插画" },
-  "about": { "eyebrow": "关于我们", "title": "让清真合规更清晰、更实用、更容易执行。", "body": "AHC Resources 协助餐厅、咖啡馆、面包店、餐饮承办商和食品制造商，通过实用的体系、文件和审核准备，申请马来西亚清真认证。" },
-  "disclaimer": { "eyebrow": "我们的角色", "title": "独立指导，界限清晰。", "body": "AHC Resources 是一家独立的私人清真咨询机构。我们协助企业进行合规准备、文件整理、培训、差距评估和申请支持。我们不签发或批准马来西亚清真证书，也不保证认证申请一定获批。" },
-  "halalIntro": { "eyebrow": "基础知识", "titleLine1": "什么是", "titleLine2": "Halal？", "lead": "阿拉伯语 halal 指根据伊斯兰教法（沙里亚）获准、合法或允许的事物。它的反义词是 haram，意为被禁止。", "body": "对食品企业而言，清真不只是检查某种原料是否被允许，也包括来源、加工、处理、储存、准备，以及防止被禁物质污染。", "principles": { "tayyib": { "title": "Halal 与 Tayyib", "body": "《古兰经》将 halal 与 tayyib 联系起来，意为良好、纯洁、有益。食品应当安全、干净并适合食用。", "reference": "《古兰经》 البقرة 2:168" }, "good": { "title": "合法且良好", "body": "伊斯兰食品要求同时重视宗教上的许可与食品本身的良好品质。", "reference": "《古兰经》 النحل 16:114" }, "source": { "title": "来源很重要", "body": "被禁止的食品及其获取方式都有明确说明。食品的来源和生产方式都很重要。", "reference": "《古兰经》 المائدة 5:3" }, "governance": { "title": "正确的治理", "body": "Halal 与 haram 应根据正统的伊斯兰依据确定，而不是个人偏好或不必要的限制。", "reference": "《古兰经》 المائدة 5:87-88" } }, "definitionLabel": "实用定义", "definition": "清真食品是根据伊斯兰教法获准且合法的食品，同时应当有益、纯洁和安全，其原料、加工、处理和供应链均按照伊斯兰要求进行管理。" },
-  "complianceRisk": { "eyebrow": "认证持续性", "title": "保护您经营场所的清真认证。", "intro": "获得马来西亚清真证书是食品企业的重要里程碑。要持续维持认证，必须不断遵守适用的要求。", "riskTitle": "什么可能让认证面临风险？", "items": { "ingredients": { "title": "原料与材料", "body": "使用没有适当清真证明文件的新材料，可能造成合规问题。" }, "suppliers": { "title": "供应商变更", "body": "更换供应商时没有审核和维护所需文件，会带来供应链风险。" }, "operations": { "title": "场所或运营变更", "body": "地址、生产区域、流程、产品、品牌或经营方式的变化可能需要采取相应措施。" }, "documentation": { "title": "文件缺口", "body": "不完整、过期或不一致的记录会使企业难以证明清真控制措施有效执行。" }, "audit": { "title": "检查或审核发现", "body": "未解决的不符合项和薄弱的纠正措施可能影响认证状态。" }, "system": { "title": "清真管理体系", "body": "执行、监控或记录保存不足，可能持续产生合规问题。" }, "logo": { "title": "证书或标志误用", "body": "不当使用、修改或滥用清真证书或标志，可能导致执法行动。" }, "shariah": { "title": "沙里亚疑虑", "body": "处理、加工、储存或其他做法可能影响清真认证的完整性。" } }, "helpEyebrow": "AHC Resources 如何协助", "programmeTitle": "清真证书合规与维持计划", "approach": "我们采取预防性方法：识别潜在弱点、执行纠正措施，并维持完善的文件和控制。", "support": ["合规与场所评估", "原料与供应商监控", "清真文件和管理体系支持", "内部清真审核与纠正措施监控", "员工意识培训与清真委员会支持", "续证、模拟检查和审核准备"], "path": { "identify": "识别", "assess": "评估", "correct": "纠正", "monitor": "监控", "maintain": "维持" } },
-  "services": { "eyebrow": "我们的服务", "title": "支持您清真旅程的每一步。", "intro": "根据您的场所、产品和团队实际情况提供定制支持。", "items": { "consultancy": { "title": "清真咨询", "body": "认证准备、清真要求评估、原料与供应商核查、文件审核、清真管理体系、申请准备和审核支持。" }, "gap": { "title": "清真差距评估", "body": "系统评估原料、供应商、生产区域、储存、设备、清洁、文件、员工做法和清真管理控制，并提供优势、改进领域和风险报告。" }, "documentation": { "title": "文件协助", "body": "协助整理原料和供应商清单、证书、规格、流程图、SOP、清洁和采购程序、追溯、审核与培训记录。" }, "verification": { "title": "原料与供应商核查", "body": "了解原料成分。我们审核原材料、添加剂、香料、肉类、乳制品、酱料、调味料、进口原料及相关包装记录。" }, "audit": { "title": "模拟清真审核与培训", "body": "通过审核文件、场所、原料、流程和员工，帮助您在正式评估前测试准备程度，并提供合规范围内的清真意识和操作培训。" } } },
-  "process": { "eyebrow": "我们的工作方式", "title": "通往准备就绪的清晰路径。", "steps": { "consultation": { "title": "咨询", "body": "了解您的业务、产品、原料和现有做法。" }, "gap": { "title": "差距评估", "body": "根据适用的清真要求识别差距。" }, "documentation": { "title": "文件整理", "body": "整理必要的程序和记录。" }, "implementation": { "title": "执行", "body": "协助您的团队实施有效的控制措施。" }, "audit": { "title": "模拟审核", "body": "评估准备程度并提供纠正措施建议。" }, "application": { "title": "申请支持", "body": "协助准备申请及相关支持文件。" } } },
-  "industries": { "eyebrow": "我们服务的企业", "title": "为食品企业的实际运营方式而设计。", "items": { "restaurants": "餐厅", "cafes": "咖啡馆", "bakeries": "面包店", "caterers": "餐饮承办商", "manufacturers": "食品制造商", "centralKitchens": "中央厨房", "cloudKitchens": "云厨房", "processing": "食品加工", "retail": "食品零售企业" } },
-  "packages": { "eyebrow": "合作方式", "title": "选择适合您起点的支持方案。", "quote": "获取报价", "items": { "readiness": { "title": "清真准备度评估", "body": "适合希望了解当前状态的企业。", "points": { "0": "初步咨询", "1": "场所与原料审核", "2": "文件审核", "3": "差距评估报告" } }, "preparation": { "title": "认证准备", "body": "适合准备申请认证的企业。", "points": { "0": "差距评估", "1": "文件与SOP协助", "2": "申请准备", "3": "审核准备" } }, "complete": { "title": "完整合规支持", "body": "适合需要全面支持的企业。", "points": { "0": "清真管理体系", "1": "员工培训", "2": "模拟审核", "3": "纠正措施支持" } } } },
-  "faq": { "eyebrow": "常见问题", "title": "清晰回答您的问题。", "items": { "certificates": { "question": "AHC Resources 是否签发清真证书？", "answer": "不签发。我们是独立的私人咨询机构，清真证书由相关清真认证机构签发。" }, "guarantee": { "question": "你们能保证我的清真证书获批吗？", "answer": "不能。我们协助企业在申请前做好准备和改善合规，但最终评估与批准由相关机构负责。" }, "myehalal": { "question": "你们可以协助 MYeHALAL 吗？", "answer": "我们可以在私人顾问获准的范围内提供准备和申请协助。" }, "smallRestaurants": { "question": "你们服务小型餐厅吗？", "answer": "可以。我们的支持可根据企业规模和复杂程度调整。" } } },
-  "contact": { "eyebrow": "让您的企业做好清真准备", "titleLine1": "从一次", "titleLine2": "对话开始。", "body": "告诉我们您的业务、清真状态和目标，我们将帮助您确定下一步。", "whatsapp": "通过 WhatsApp 联系", "labels": { "person": "负责人", "qualification": "学历", "certification": "认证", "phone": "联系", "address": "地址", "hours": "营业时间" }, "person": "Shyam Bin Ramzan", "qualification": "B.Sc (Food Service Technology)", "certification": "认证清真顾问", "phone": "+60 19-731 6495", "location": "C-2-09, SRI ALAM CONDOMINIUM, JALAN KELAB GOLF 13/1, KGSAAS, SEKSYEN 13, SHAH ALAM, SELANGOR, MALAYSIA", "hours": "星期一至星期五，上午 9:00 - 下午 5:30" },
-  "footer": { "copyright": "© 2026 AHC Resources", "backToTop": "回到顶部" },
-  "whatsapp": { "messageEncoded": "Hello%20AHC%20Resources%2C%20I%20would%20like%20to%20enquire%20about%20halal%20consultancy%20services." }
+  "brand": {
+    "name": "AHC Resources",
+    "tagline": "咨询 · 协助 · 合规",
+    "taglineLine1": "咨询。",
+    "taglineLine2": "协助。",
+    "taglineLine3": "合规。"
+  },
+  "nav": {
+    "about": "关于我们",
+    "services": "服务",
+    "process": "流程",
+    "faq": "常见问题",
+    "consultation": "获取咨询",
+    "language": "选择语言"
+  },
+  "hero": {
+    "eyebrow": "清真合规与咨询",
+    "acronym": {
+      "amanah": "Amanah",
+      "halal": "Halal",
+      "consultancy": "Consultancy"
+    },
+    "intro": "为准备申请马来西亚清真认证的食品企业提供专业咨询与合规支持。",
+    "whatsapp": "通过 WhatsApp 联系我们",
+    "services": "我们的服务",
+    "artLabel": "抽象的成长植物插画"
+  },
+  "about": {
+    "eyebrow": "关于我们",
+    "title": "让清真合规更清晰、更实用、更容易执行。",
+    "body": "AHC Resources 协助餐厅、咖啡馆、面包店、餐饮承办商和食品制造商，通过实用的体系、文件和审核准备，申请马来西亚清真认证。"
+  },
+  "disclaimer": {
+    "eyebrow": "我们的角色",
+    "title": "独立指导，界限清晰。",
+    "body": "AHC Resources 是一家独立的私人清真咨询机构。我们协助企业进行合规准备、文件整理、培训、差距评估和申请支持。我们不签发或批准马来西亚清真证书，也不保证认证申请一定获批。"
+  },
+  "halalIntro": {
+    "eyebrow": "基础知识",
+    "titleLine1": "什么是",
+    "titleLine2": "Halal？",
+    "lead": "阿拉伯语 halal 指根据伊斯兰教法（沙里亚）获准、合法或允许的事物。它的反义词是 haram，意为被禁止。",
+    "body": "对食品企业而言，清真不只是检查某种原料是否被允许，也包括来源、加工、处理、储存、准备，以及防止被禁物质污染。",
+    "principles": {
+      "tayyib": {
+        "title": "Halal 与 Tayyib",
+        "body": "《古兰经》将 halal 与 tayyib 联系起来，意为良好、纯洁、有益。食品应当安全、干净并适合食用。",
+        "reference": "《古兰经》 البقرة 2:168"
+      },
+      "good": {
+        "title": "合法且良好",
+        "body": "伊斯兰食品要求同时重视宗教上的许可与食品本身的良好品质。",
+        "reference": "《古兰经》 النحل 16:114"
+      },
+      "source": {
+        "title": "来源很重要",
+        "body": "被禁止的食品及其获取方式都有明确说明。食品的来源和生产方式都很重要。",
+        "reference": "《古兰经》 المائدة 5:3"
+      },
+      "governance": {
+        "title": "正确的治理",
+        "body": "Halal 与 haram 应根据正统的伊斯兰依据确定，而不是个人偏好或不必要的限制。",
+        "reference": "《古兰经》 المائدة 5:87-88"
+      }
+    },
+    "definitionLabel": "实用定义",
+    "definition": "清真食品是根据伊斯兰教法获准且合法的食品，同时应当有益、纯洁和安全，其原料、加工、处理和供应链均按照伊斯兰要求进行管理。",
+    "principlesSummary": "为什么这四项清真原则很重要",
+    "industrySummary": "查看清真如何应用于食品行业",
+    "referencesSummary": "查看主要《古兰经》依据",
+    "industryLabel": "食品行业中的清真",
+    "industryIntro": "清真意味着产品在相关供应链和生产过程中符合伊斯兰要求。",
+    "industryItems": [
+      "原材料：所用成分必须是清真的。",
+      "动物来源：动物来源成分必须来自允许的来源。",
+      "屠宰：相关动物必须按照伊斯兰要求屠宰。",
+      "加工：不得使用或引入被禁止的物质。",
+      "设备：生产设备必须受控，以防止污染。",
+      "储存：清真产品必须避免受到非清真污染。",
+      "运输：处理和运输必须保持清真完整性。",
+      "清洁与卫生：必须执行适当程序。",
+      "包装与标签：信息不得误导。",
+      "可追溯性：企业应能说明材料来源以及产品如何生产。"
+    ],
+    "referencesLabel": "主要《古兰经》依据",
+    "references": "黄牛章 2:168 - 食用合法且佳美的食物。\n黄牛章 2:172 - 食用真主赐予的佳美供给。\n筵席章 5:3 - 被禁止食品的主要类别。\n筵席章 5:87-88 - 不要禁止真主所允许的。\n蜜蜂章 16:114 - 食用合法且佳美的供给。"
+  },
+  "complianceRisk": {
+    "eyebrow": "认证持续性",
+    "title": "保护您经营场所的清真认证。",
+    "intro": "获得马来西亚清真证书是食品企业的重要里程碑。要持续维持认证，必须不断遵守适用的要求。",
+    "riskTitle": "什么可能让认证面临风险？",
+    "items": {
+      "ingredients": {
+        "title": "原料与材料",
+        "body": "使用没有适当清真证明文件的新材料，可能造成合规问题。"
+      },
+      "suppliers": {
+        "title": "供应商变更",
+        "body": "更换供应商时没有审核和维护所需文件，会带来供应链风险。"
+      },
+      "operations": {
+        "title": "场所或运营变更",
+        "body": "地址、生产区域、流程、产品、品牌或经营方式的变化可能需要采取相应措施。"
+      },
+      "documentation": {
+        "title": "文件缺口",
+        "body": "不完整、过期或不一致的记录会使企业难以证明清真控制措施有效执行。"
+      },
+      "audit": {
+        "title": "检查或审核发现",
+        "body": "未解决的不符合项和薄弱的纠正措施可能影响认证状态。"
+      },
+      "system": {
+        "title": "清真管理体系",
+        "body": "执行、监控或记录保存不足，可能持续产生合规问题。"
+      },
+      "logo": {
+        "title": "证书或标志误用",
+        "body": "不当使用、修改或滥用清真证书或标志，可能导致执法行动。"
+      },
+      "shariah": {
+        "title": "沙里亚疑虑",
+        "body": "处理、加工、储存或其他做法可能影响清真认证的完整性。"
+      }
+    },
+    "helpEyebrow": "AHC Resources 如何协助",
+    "programmeTitle": "清真证书合规与维持计划",
+    "approach": "我们采取预防性方法：识别潜在弱点、执行纠正措施，并维持完善的文件和控制。",
+    "support": [
+      "合规与场所评估",
+      "原料与供应商监控",
+      "清真文件和管理体系支持",
+      "内部清真审核与纠正措施监控",
+      "员工意识培训与清真委员会支持",
+      "续证、模拟检查和审核准备"
+    ],
+    "path": {
+      "identify": "识别",
+      "assess": "评估",
+      "correct": "纠正",
+      "monitor": "监控",
+      "maintain": "维持"
+    },
+    "context": "已获得认证的食品场所，如果未能维持重要要求，或出现影响运营清真完整性的问题，可能面临不合规、暂停、撤销或终止认证。AHC Resources 协助企业及早识别潜在风险，并加强清真合规体系。",
+    "riskSummary": "查看八个常见风险领域",
+    "supportSummary": "查看计划服务与维护步骤"
+  },
+  "services": {
+    "eyebrow": "我们的服务",
+    "title": "支持您清真旅程的每一步。",
+    "intro": "根据您的场所、产品和团队实际情况提供定制支持。",
+    "items": {
+      "consultancy": {
+        "title": "清真咨询",
+        "body": "认证准备、清真要求评估、原料与供应商核查、文件审核、清真管理体系、申请准备和审核支持。"
+      },
+      "gap": {
+        "title": "清真差距评估",
+        "body": "系统评估原料、供应商、生产区域、储存、设备、清洁、文件、员工做法和清真管理控制，并提供优势、改进领域和风险报告。"
+      },
+      "documentation": {
+        "title": "文件协助",
+        "body": "协助整理原料和供应商清单、证书、规格、流程图、SOP、清洁和采购程序、追溯、审核与培训记录。"
+      },
+      "verification": {
+        "title": "原料与供应商核查",
+        "body": "了解原料成分。我们审核原材料、添加剂、香料、肉类、乳制品、酱料、调味料、进口原料及相关包装记录。"
+      },
+      "audit": {
+        "title": "模拟清真审核与培训",
+        "body": "通过审核文件、场所、原料、流程和员工，帮助您在正式评估前测试准备程度，并提供合规范围内的清真意识和操作培训。"
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "我们的工作方式",
+    "title": "通往准备就绪的清晰路径。",
+    "steps": {
+      "consultation": {
+        "title": "咨询",
+        "body": "了解您的业务、产品、原料和现有做法。"
+      },
+      "gap": {
+        "title": "差距评估",
+        "body": "根据适用的清真要求识别差距。"
+      },
+      "documentation": {
+        "title": "文件整理",
+        "body": "整理必要的程序和记录。"
+      },
+      "implementation": {
+        "title": "执行",
+        "body": "协助您的团队实施有效的控制措施。"
+      },
+      "audit": {
+        "title": "模拟审核",
+        "body": "评估准备程度并提供纠正措施建议。"
+      },
+      "application": {
+        "title": "申请支持",
+        "body": "协助准备申请及相关支持文件。"
+      }
+    }
+  },
+  "industries": {
+    "eyebrow": "我们服务的企业",
+    "title": "为食品企业的实际运营方式而设计。",
+    "items": {
+      "restaurants": "餐厅",
+      "cafes": "咖啡馆",
+      "bakeries": "面包店",
+      "caterers": "餐饮承办商",
+      "manufacturers": "食品制造商",
+      "centralKitchens": "中央厨房",
+      "cloudKitchens": "云厨房",
+      "processing": "食品加工",
+      "retail": "食品零售企业"
+    }
+  },
+  "packages": {
+    "eyebrow": "合作方式",
+    "title": "选择适合您起点的支持方案。",
+    "quote": "获取报价",
+    "items": {
+      "readiness": {
+        "title": "清真准备度评估",
+        "body": "适合希望了解当前状态的企业。",
+        "points": {
+          "0": "初步咨询",
+          "1": "场所与原料审核",
+          "2": "文件审核",
+          "3": "差距评估报告"
+        }
+      },
+      "preparation": {
+        "title": "认证准备",
+        "body": "适合准备申请认证的企业。",
+        "points": {
+          "0": "差距评估",
+          "1": "文件与SOP协助",
+          "2": "申请准备",
+          "3": "审核准备"
+        }
+      },
+      "complete": {
+        "title": "完整合规支持",
+        "body": "适合需要全面支持的企业。",
+        "points": {
+          "0": "清真管理体系",
+          "1": "员工培训",
+          "2": "模拟审核",
+          "3": "纠正措施支持"
+        }
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "常见问题",
+    "title": "清晰回答您的问题。",
+    "items": {
+      "certificates": {
+        "question": "AHC Resources 是否签发清真证书？",
+        "answer": "不签发。我们是独立的私人咨询机构，清真证书由相关清真认证机构签发。"
+      },
+      "guarantee": {
+        "question": "你们能保证我的清真证书获批吗？",
+        "answer": "不能。我们协助企业在申请前做好准备和改善合规，但最终评估与批准由相关机构负责。"
+      },
+      "myehalal": {
+        "question": "你们可以协助 MYeHALAL 吗？",
+        "answer": "我们可以在私人顾问获准的范围内提供准备和申请协助。"
+      },
+      "smallRestaurants": {
+        "question": "你们服务小型餐厅吗？",
+        "answer": "可以。我们的支持可根据企业规模和复杂程度调整。"
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "让您的企业做好清真准备",
+    "titleLine1": "从一次",
+    "titleLine2": "对话开始。",
+    "body": "告诉我们您的业务、清真状态和目标，我们将帮助您确定下一步。",
+    "whatsapp": "通过 WhatsApp 联系",
+    "labels": {
+      "person": "负责人",
+      "qualification": "学历",
+      "certification": "认证",
+      "phone": "联系",
+      "address": "地址",
+      "hours": "营业时间"
+    },
+    "person": "Shyam Bin Ramzan",
+    "qualification": "B.Sc (Food Service Technology)",
+    "certification": "认证清真顾问",
+    "phone": "+60 19-731 6495",
+    "location": "C-2-09, SRI ALAM CONDOMINIUM, JALAN KELAB GOLF 13/1, KGSAAS, SEKSYEN 13, SHAH ALAM, SELANGOR, MALAYSIA",
+    "hours": "星期一至星期五，上午 9:00 - 下午 5:30"
+  },
+  "footer": {
+    "copyright": "© 2026 AHC Resources",
+    "backToTop": "回到顶部"
+  },
+  "whatsapp": {
+    "messageEncoded": "Hello%20AHC%20Resources%2C%20I%20would%20like%20to%20enquire%20about%20halal%20consultancy%20services."
+  }
 }
